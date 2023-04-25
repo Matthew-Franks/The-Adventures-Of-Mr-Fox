@@ -1,0 +1,27 @@
+{
+  "name": "com.unity.services.core",
+  "displayName": "Services Core",
+  "version": "1.8.2",
+  "unity": "2019.4",
+  "description": "This package defines common components used by multiple Game Service packages.\nThese are standardized and aim to unify the overall experience of working with Game Services SDK.",
+  "dependencies": {
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.modules.androidjni": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.services.core.tests": "1.8.2"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n\n- Newtonsoft usage isn't impacted by changes to `JsonConvert.DefaultSettings` anymore."
+  },
+  "upmCi": {
+    "footprint": "d0ec46eec2b8b076b135ae093a569f782127b215"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.core@1.8/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "76259ae8be68ef4e25a5783d8bcf476d7ed09d17"
+  }
+}
